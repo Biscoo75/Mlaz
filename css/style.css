@@ -109,9 +109,11 @@
 	font-family: main !important;
 	text-align: right;
 }
-a{
+
+a {
 	text-decoration: none !important;
 }
+
 .bg-gradient.bg-secondary-2 {
 	background-image: -moz-linear-gradient(-39deg, #6d0eb1 59%, #080ab4 100%);
 	/* FF3.6-15 */
@@ -2194,12 +2196,14 @@ section {
 .bg-gray-700 .post-blog .post-blog-caption-footer {
 	border-color: #f7f7f7;
 }
-.package-card{
+
+.package-card {
 	background: #fff;
 	/* box-shadow: 0 10px 32px rgba(129, 132, 146, 0.14); */
 	margin-bottom: 20px;
 	padding: 0;
 }
+
 /**
 * Background White
 */
@@ -2828,6 +2832,34 @@ section {
 	color: #ffffff;
 	background-color: #F3711E;
 	border-color: #F3711E;
+}
+
+.bread-cramp {
+	/* styleName: card small text - Alexandria regular; */
+	font-family: 'light';
+	font-size: 14px;
+	font-weight: 400;
+	text-wrap: nowrap;
+	/* line-height: 16px; */
+	/* letter-spacing: 0.4000000059604645px; */
+	text-align: start;
+	color: #9D9D9D;
+	text-decoration: none;
+	/* width:100; */
+
+}
+
+.bread-cramp a {
+	font-family: 'light';
+	font-size: 14px;
+	font-weight: 400;
+	text-wrap: nowrap;
+	/* line-height: 16px; */
+	/* letter-spacing: 0.4000000059604645px; */
+	text-align: start;
+	color: #9D9D9D;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 /**
@@ -11248,10 +11280,9 @@ html[class*="ie"] .dtp-hour-hand {
 .owl-carousel-widget .owl-dots {
 	display: none;
 }
-.owl-dot
-{
-	
-}
+
+.owl-dot {}
+
 .owl-carousel .owl-stage {
 	position: relative;
 	-ms-touch-action: pan-Y;
@@ -16975,10 +17006,12 @@ html.tablet .ui-to-top {
 	color: #123EA1;
 	font-size: 40px;
 }
-.price{
+
+.price {
 	color: #123EA1;
 	font-size: 30px;
 }
+
 .reg-btn {
 	height: 40px;
 	background: #F3711E;
@@ -19603,3 +19636,101 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 * Fonts
 * ==================================================
 */
+@media(max-width:767px) {
+	.rd-navbar-fixed .rd-navbar-panel {
+		height: 80px;
+		justify-content: space-between;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.rd-navbar-fixed .rd-navbar-brand img {
+		width: 70px;
+	}
+
+	.rd-navbar-fixed .rd-navbar-nav-wrap {
+		top: 30px;
+	}
+}
+
+/*!//------------------------footer Start --> */
+footer {
+    box-shadow: 0px -6px 18px 0px #0c0c0d1a;
+
+}
+
+.hot-line img {
+    height: 50px;
+    object-fit: contain;
+}
+
+
+.logo {
+    height: 70px;
+    object-fit: contain;
+
+}
+
+.divider {
+    height: 1px;
+    background-color: #66666654;
+    width: 100%;
+}
+
+.contact-footer {
+    font-family: 'bold';
+    font-size: 38px;
+    font-weight: 700;
+    /* line-height: 66px; */
+    text-align: start;
+	color: #F3711E;
+}
+
+.branch-address {
+    font-family: main;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: justify;
+	color: #F3711E;
+
+
+}
+
+.foot-desc {
+    font-family: Tajawal;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    color: #666666;
+
+}
+
+.copy-right {
+    text-align: center;
+}
+
+.copy-right p {
+    color: #666666;
+
+}
+
+.copy-right p a {
+    color: #666666;
+
+}
+
+@media(max-width:767px) {
+    .hot-line img {
+        width: 100%;
+        height: 40px;
+
+    }
+
+    .logo {
+        height: 50px;
+        object-fit: contain;
+
+    }
+}
+
+/*!//------------------------footer End --> */
