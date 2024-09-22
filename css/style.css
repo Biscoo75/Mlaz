@@ -11562,6 +11562,9 @@ html[class*="ie"] .dtp-hour-hand {
 	.owl-layout-1 .owl-nav {
 		display: none !important;
 	}
+	.owl-carousel-inset .owl-stage-outer {
+		padding:0px;
+	}
 }
 
 @media (min-width: 992px) {
